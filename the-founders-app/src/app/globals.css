@@ -1,0 +1,69 @@
+
+@import "tailwindcss";
+
+/* 1. Global design tokens */
+
+:root {
+  --background: #f5f6f8;
+  --foreground: #171717;
+
+  --brand-blue: #0645a5;
+  --brand-blue-dark: #08377f;
+  --brand-orange: #ffb238;
+  --brand-orange-light: #ffd080;
+
+  --surface: #ffffff;
+  --muted: #697586;
+  --border: #e2e6ec;
+}
+
+/* 2. Tailwind theme integration */
+
+/* Theme aliases are declared as standard CSS variables for editor compatibility. */
+:root {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-blue-dark: var(--brand-blue-dark);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-orange-light: var(--brand-orange-light);
+
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 3. Basic browser reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 4. Global document styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Consistent links and buttons */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
