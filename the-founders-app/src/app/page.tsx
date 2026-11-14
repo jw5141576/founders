@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 
 async function getCurrentYear() {
   "use cache";
@@ -31,15 +32,15 @@ export default async function Home() {
           </a>
 
           <div className="hidden items-center gap-8 text-sm font-medium md:flex">
-            <a href="#about" className="transition hover:text-[#0645a5]">
+            <Link href="/about" className="transition hover:text-[#0645a5]">
               About Us
-            </a>
-            <a href="#pillars" className="transition hover:text-[#0645a5]">
+            </Link>
+            <Link href="#pillars" className="transition hover:text-[#0645a5]">
               What We Do
-            </a>
-            <a href="#membership" className="transition hover:text-[#0645a5]">
+            </Link>
+            <Link href="#membership" className="transition hover:text-[#0645a5]">
               Membership
-            </a>
+            </Link>
             <a href="#contact" className="transition hover:text-[#0645a5]">
               Contact
             </a>
