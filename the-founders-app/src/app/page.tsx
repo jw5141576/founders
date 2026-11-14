@@ -1,7 +1,14 @@
 
 import Image from "next/image";
 
-export default function Home() {
+async function getCurrentYear() {
+  "use cache";
+  return new Date().getFullYear();
+}
+
+export default async function Home() {
+  const currentYear = await getCurrentYear();
+
   return (
     <main className="min-h-screen bg-white text-[#171717]">
 
@@ -236,7 +243,7 @@ export default function Home() {
 
           <div className="flex items-center gap-3">
             <Image
-              src="/images/founders-logo.jpg"
+              src="/images/founders-logo-white.png"
               alt="The Founders logo"
               width={60}
               height={60}
@@ -258,7 +265,7 @@ export default function Home() {
         </div>
 
         <p className="mx-auto max-w-7xl pt-7 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} The Founders. All rights reserved.
+          © {currentYear} The Founders. All rights reserved.
         </p>
 
       </footer>
