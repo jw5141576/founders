@@ -4,17 +4,21 @@
 /* 1. Global design tokens */
 
 :root {
-  --background: #f5f6f8;
-  --foreground: #171717;
+  --background: #F7F8FA;
+  --foreground: #202B36;
 
-  --brand-blue: #0645a5;
-  --brand-blue-dark: #08377f;
-  --brand-orange: #ffb238;
-  --brand-orange-light: #ffd080;
+  /* Primary brand colours */
+  --brand-blue: #14263D;
+  --brand-blue-dark: #0B1727;
 
-  --surface: #ffffff;
-  --muted: #697586;
-  --border: #e2e6ec;
+  /* Premium accent colours */
+  --brand-orange: #C5A46D;
+  --brand-orange-light: #E7D8B5;
+
+  /* Supporting colours */
+  --surface: #FFFFFF;
+  --muted: #697786;
+  --border: #E1E6EB;
 }
 
 /* 2. Tailwind theme integration */
