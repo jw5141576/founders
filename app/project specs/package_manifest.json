@@ -1,0 +1,22 @@
+{
+  "project": "The Founders",
+  "version": "1.1",
+  "date": "2026-11-12",
+  "status": "development_baseline",
+  "files": [
+    "README.md",
+    "docs/SRS.docx",
+    "docs/ERD.docx",
+    "docs/DECISIONS_AND_OPEN_ITEMS.md",
+    "docs/DATABASE_GUIDE.md",
+    "diagrams/logical_erd.md",
+    "database/migrations/001_initial_schema.sql",
+    "database/seed/001_founders_seed.sql"
+  ],
+  "ownership_model": {
+    "founders": 11,
+    "display_percentage_each": 9.1,
+    "calculation_basis": "one equal ownership unit per founder; 11 units total",
+    "rounding_total_accepted": 100.1
+  }
+}
