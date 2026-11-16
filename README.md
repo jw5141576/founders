@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Founders Platform
+
+**Digital hub and core platform for Founders, a visionary community operating in Nairobi. Built to create, support & nurture opportunities in business and related fields of exposure.**
+
+This platform serves as the central digital home for the Founders community, connecting individuals, fostering collaboration, and creating access to business opportunities and growth resources.
+
+## 🚀 Features
+
+*   **Community Hub:** A dedicated space for Nairobi-based entrepreneurs and visionaries to connect.
+*   **Business Support:** Dynamic tools and resources to help scale and nurture business opportunities.
+*   **Modern Interface:** Built with clean, semantic structure and responsive layouts for seamless user experience.
+>>>>>>> 3cb62129a3699846a3e81696c5cdadd8c1217203
