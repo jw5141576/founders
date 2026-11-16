@@ -48,7 +48,7 @@ export default function AboutPage() {
         <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full border border-white/10" />
         <div className="absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-brand-orange/10 blur-3xl" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-28 md:py-36">
+        <div className="relative mx-auto max-w-7xl  px-7 py-28 md:py-36">
           <div className="max-w-3xl">
             <div className="mb-7 flex items-center gap-3">
               <span className="h-1 w-12 bg-brand-orange" />
@@ -92,7 +92,7 @@ export default function AboutPage() {
       </section>
 
       {/* OUR STORY */}
-      <section className="px-6 py-24 md:py-32">
+      <section className=" px-7 py-24 md:py-32">
         <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-[0.8fr_1.2fr]">
 
           <div>
@@ -173,7 +173,7 @@ export default function AboutPage() {
       </section>
 
       {/* VISION AND MISSION */}
-      <section className="bg-slate-50 px-6 py-24 md:py-32">
+      <section className="bg-slate-50  px-7 py-24 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 max-w-2xl">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-brand-blue">
@@ -193,7 +193,7 @@ export default function AboutPage() {
           <div className="grid gap-8 lg:grid-cols-2">
 
             {/* VISION */}
-            <div className="relative overflow-hidden rounded-2xl bg-brand-blue p-9 text-white md:p-12">
+            <div className="relative overflow-hidden rounded-2xl bg-brand-blue p-7 sm:p-9 text-white md:p-12">
               <div className="absolute -right-12 -top-12 h-48 w-48 rounded-full border border-white/10" />
 
               <p className="relative text-sm font-bold uppercase tracking-[0.2em] text-brand-orange">
@@ -215,7 +215,7 @@ export default function AboutPage() {
             </div>
 
             {/* MISSION */}
-            <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-9 shadow-sm md:p-12">
+            <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7 sm:p-9 shadow-sm md:p-12">
               <div className="absolute -right-12 -top-12 h-48 w-48 rounded-full border border-brand-blue/10" />
 
               <p className="relative text-sm font-bold uppercase tracking-[0.2em] text-brand-blue">
@@ -243,7 +243,7 @@ export default function AboutPage() {
       </section>
 
       {/* CORE VALUES */}
-      <section className="px-6 py-24 md:py-32">
+      <section className=" px-7 py-24 md:py-32">
         <div className="mx-auto max-w-7xl">
 
           <div className="mx-auto mb-16 max-w-2xl text-center">
@@ -287,7 +287,7 @@ export default function AboutPage() {
       </section>
 
       {/* CLOSING STATEMENT */}
-      <section className="bg-brand-blue px-6 py-20 text-center text-white md:py-28">
+      <section className="bg-brand-blue  px-7 py-20 text-center text-white md:py-28">
         <div className="mx-auto max-w-4xl">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
             Our Commitment
