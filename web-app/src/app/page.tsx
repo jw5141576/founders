@@ -8,49 +8,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-[#171717]">
 
-      {/* NAVIGATION */}
-      <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-10">
-
-          <a href="#" className="flex items-center">
-            <Image
-              src="/images/founders-logo-white.png"
-              alt="The Founders logo"
-              width={90}
-              height={90}
-              priority
-              className="h-16 w-16 object-contain "
-            />
-            <p className="ml-2 text-lg font-bold tracking-tight">
-              THE <strong className="font-bold text-[#0645a5]">FOUNDERS</strong>
-            </p>
-          </a>
-
-          <div className="hidden items-center gap-8 text-sm font-medium md:flex">
-            <Link href="/about" className="transition hover:text-[#0645a5]">
-              About Us
-            </Link>
-            <a href="#pillars" className="transition hover:text-[#0645a5]">
-              What We Do
-            </a>
-            <a href="#membership" className="transition hover:text-[#0645a5]">
-              Membership
-            </a>
-            <a href="#contact" className="transition hover:text-[#0645a5]">
-              Contact
-            </a>
-          </div>
-
-          <a
-            href="#membership"
-            className="rounded-md bg-[#0645a5] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#08377f]"
-          >
-            Join The Founders
-          </a>
-
-        </nav>
-      </header>
-
       {/* HERO SECTION */}
       <section className="relative overflow-hidden bg-[#0645a5] text-white">
 
