@@ -45,7 +45,7 @@ export default function Navbar() {
         {/* CALL TO ACTION */}
         <Link
           href="/#membership"
-          className="rounded-md bg-[#14263D] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#0B1727]"
+          className="rounded-md bg-[#14263D] px-5 py-3 text-sm font-semibold !text-white transition hover:bg-[#0B1727]"
         >
           Join The Founders
         </Link>
