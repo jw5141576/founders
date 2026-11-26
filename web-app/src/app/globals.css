@@ -2,20 +2,23 @@
 @import "tailwindcss";
 
 /* 1. Global design tokens */
+
 :root {
-  --background: #f5f6f8;
-  --foreground: #202938;
+  --background: #F7F8FA;
+  --foreground: #202B36;
 
-  --navy: #101b2d;
-  --navy-light: #1b2b43;
-  --gold: #d4af37;
-  --gold-light: #e8cc72;
+  /* Primary brand colours */
+  --brand-blue: #14263D;
+  --brand-blue-dark: #0B1727;
 
-  --surface: #ffffff;
-  --muted: #697586;
-  --border: #e2e6ec;
+  /* Premium accent colours */
+  --brand-orange: #C5A46D;
+  --brand-orange-light: #E7D8B5;
 
-  --font-primary: Arial, Helvetica, sans-serif;
+  /* Supporting colours */
+  --surface: #FFFFFF;
+  --muted: #697786;
+  --border: #E1E6EB;
 }
 
 /* 2. Tailwind theme integration */
