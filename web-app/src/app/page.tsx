@@ -1,5 +1,8 @@
 
 import Image from "next/image";
+import Link from "next/link";
+
+const copyrightYear = new Date().getFullYear();
 
 export default function Home() {
   return (
@@ -24,9 +27,9 @@ export default function Home() {
           </a>
 
           <div className="hidden items-center gap-8 text-sm font-medium md:flex">
-            <a href="#about" className="transition hover:text-[#0645a5]">
+            <Link href="/about" className="transition hover:text-[#0645a5]">
               About Us
-            </a>
+            </Link>
             <a href="#pillars" className="transition hover:text-[#0645a5]">
               What We Do
             </a>
@@ -91,7 +94,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="rounded-2xl bg-white p-6 shadow-2xl md:p-10">
               <Image
-                src="/images/founders-logo.jpg"
+                src="/images/founders-logo.png"
                 alt="The Founders — Unity and collective growth"
                 width={500}
                 height={500}
@@ -258,7 +261,7 @@ export default function Home() {
         </div>
 
         <p className="mx-auto max-w-7xl pt-7 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} The Founders Group. All rights reserved.
+          © {copyrightYear} The Founders Group. All rights reserved.
         </p>
 
       </footer>
